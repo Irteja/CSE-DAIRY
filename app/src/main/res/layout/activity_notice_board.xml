@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".notice_board">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/spinner_for_notice_board"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="80dp"
+                >
+
+            </Spinner>
+
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="110dp"
+                android:id="@+id/select_image_for_notice_board"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="select image"
+                />
+            <ImageView
+                android:id="@+id/image_for_notice_board"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="40dp"
+                android:layout_width="300dp"
+                android:layout_height="300dp"/>
+
+            <EditText
+                android:id="@+id/add_description_for_notice_board"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:hint="                   Add description"
+                android:layout_width="300dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="200dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_new_notice"
+                android:text="add this notice"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

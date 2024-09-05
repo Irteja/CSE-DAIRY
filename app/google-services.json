@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "524411490490",
+    "firebase_url": "https://cse-dairy-default-rtdb.firebaseio.com",
+    "project_id": "cse-dairy",
+    "storage_bucket": "cse-dairy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524411490490:android:806068ad5ceb841ae13283",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524411490490-6acks37sfaq1ukafvuvqhdtormtcrh6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF0iFDOIjkIYco4fLWWIbHWtG8rMP4MYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524411490490-6acks37sfaq1ukafvuvqhdtormtcrh6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

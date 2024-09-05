@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".routine_update">
+
+    <Spinner
+        android:id="@+id/routine_update_spinner"
+        android:layout_width="211dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="35dp">
+
+    </Spinner>
+
+    <Spinner
+        android:layout_width="217dp"
+        android:id="@+id/routine_update_spinner_two"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="111dp">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/routine_course_name"
+        android:layout_width="327dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="173dp"
+        android:hint="Enter Course Name" />
+
+    <EditText
+        android:id="@+id/routine_course_time"
+        android:layout_width="334dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="264dp"
+        android:hint="Enter Course Schedule" />
+
+    <EditText
+        android:id="@+id/routine_course_teacher"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="369dp"
+        android:hint="Enter Course Teacher Id" />
+
+    <Button
+        android:id="@+id/routine_update_button"
+        android:layout_width="278dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginBottom="43dp"
+        android:text="update" />
+
+</RelativeLayout>

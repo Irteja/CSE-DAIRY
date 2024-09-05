@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".showing_routine"
+    tools:visibility="visible">
+
+    <Spinner
+        android:id="@+id/spinner_for_routine_show"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="22dp">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_for_routine_show_two"
+        android:layout_width="257dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="96dp">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/search_for_teacher"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Search Teacher Name"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="180dp" />
+
+    <Button
+        android:id="@+id/button_for_showing_routine"
+        android:layout_width="235dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="252dp"
+        android:text="show" />
+
+    <ListView
+        android:id="@+id/listview_for_showing_routine"
+        android:layout_width="356dp"
+        android:layout_height="377dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="337dp"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>

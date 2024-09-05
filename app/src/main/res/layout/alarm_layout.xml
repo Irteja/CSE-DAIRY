@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp">
+
+    <TextView
+        android:id="@+id/alarmcoursename"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:text="vungvang"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/alarmtime"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="113dp"
+        android:text="vungvang"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/alarmday"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="57dp"
+        android:text="vungvang"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

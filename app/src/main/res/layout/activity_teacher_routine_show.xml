@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher_routine_show">
+
+    <Spinner
+        android:id="@+id/teacher_day"
+        android:layout_width="327dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/teacher_button_for_showing_routine"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="194dp"
+        android:text="show" />
+
+    <ListView
+        android:id="@+id/teacher_listview_for_showing_routine"
+        android:layout_width="341dp"
+        android:layout_height="413dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginBottom="8dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".select_contact">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/select_teacher"
+        android:text="Teacher Contacts"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/select_student"
+        android:text="Student Contacts"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>

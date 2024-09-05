@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CSE DIARY</string>
+
+    <string name="bbb">student</string>
+    <string name="add_user">ADD USER</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".teacher_log_in">
+
+    <EditText
+        android:id="@+id/tname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your id"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="16dp"
+       android:backgroundTint="#930543"
+        />
+     <EditText
+         android:id="@+id/tid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="17dp"
+       android:backgroundTint="#930543"
+         android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/tlgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log in"
+        />
+
+</LinearLayout>

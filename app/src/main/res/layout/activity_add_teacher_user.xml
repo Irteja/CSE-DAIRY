@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_teacher_user">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="646dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/select_timage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="65dp"
+                    android:text="select" />
+
+                <ImageView
+                    android:id="@+id/teacher_image"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp" />
+
+            </LinearLayout>
+
+
+            <Spinner
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/dept_head_or_other">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/teacher_name"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="100dp"
+                android:hint="  Wrtie Teacher Name" />
+
+            <EditText
+                android:id="@+id/teacher_designation"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="50dp"
+                android:hint="  Write Teacher Designation" />
+
+            <EditText
+                android:id="@+id/teacher_phone"
+                android:layout_width="340dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="60dp"
+                android:hint="  Write Teacher's phone Number" />
+
+            <Button
+                android:id="@+id/teacher_user_add_button"
+                android:layout_width="291dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginBottom="40dp"
+                android:text="Add new teacher" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

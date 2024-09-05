@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Slect_Option"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/add_user"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="25dp"
+        android:text="ADD USER" />
+
+
+       <Button
+           android:id="@+id/upload_image"
+           android:layout_width="320dp"
+           android:layout_height="80dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginTop="19dp"
+           android:text="Upload Image" />
+
+       <Button
+           android:id="@+id/routine_update"
+           android:layout_width="320dp"
+           android:layout_height="80dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginTop="30dp"
+           android:text="Update Routine" />
+
+    <Button
+        android:id="@+id/delete_routine"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:text="Routine Delete" />
+
+       <Button
+           android:id="@+id/add_notice"
+           android:layout_width="320dp"
+           android:layout_height="80dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginTop="50dp"
+           android:text="Add Notice" />
+       <Button
+           android:id="@+id/add_syllabus"
+           android:layout_width="320dp"
+           android:layout_height="80dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="10dp"
+           android:text="Add Syllabus" />
+       <Button
+           android:id="@+id/delete_syllabus"
+           android:layout_width="320dp"
+           android:layout_height="80dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="20dp"
+           android:text="Delete Syllabus" />
+
+
+   </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".syllabus">
+
+    <Spinner
+        android:id="@+id/spinner_for_selecting_year_for_syllabus"
+        android:layout_width="254dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="18dp">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_for_selecting_semester_for_syllabus"
+        android:layout_width="258dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button_for_showing_syllabus"
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="156dp"
+        android:text="show" />
+
+    <ListView
+        android:id="@+id/listview_for_showing_syllabus"
+        android:layout_width="349dp"
+        android:layout_height="486dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="10dp" />
+
+</RelativeLayout>

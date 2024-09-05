@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".update_and_delete"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/choose_image"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="31dp"
+        android:accessibilityLiveRegion="polite"
+        android:background="#B1B1A7"
+        android:text="Choose " />
+
+    <EditText
+        android:id="@+id/imgfilename"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="6dp"
+        android:hint="Enter file name" />
+
+    <ImageView
+        android:id="@+id/upimg"
+        android:layout_width="match_parent"
+        android:layout_height="623dp"
+        android:layout_above="@id/prgimg"
+        android:layout_below="@+id/choose_image"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="11dp" />
+
+    <ProgressBar
+        android:id="@+id/prgimg"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+
+        />
+
+    <Button
+        android:id="@+id/imgup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginBottom="69dp"
+        android:text="Upload" />
+
+
+</RelativeLayout>
